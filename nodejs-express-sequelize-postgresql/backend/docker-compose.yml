@@ -1,0 +1,9 @@
+version: '3'
+services:
+  db:
+    image: postgres:10
+    container_name: bd_dev
+    environment:
+      POSTGRES_PASSWORD: "1121141"
+      POSTGRES_DB: "reactNode"
+    ports: ["5432:5432"]
